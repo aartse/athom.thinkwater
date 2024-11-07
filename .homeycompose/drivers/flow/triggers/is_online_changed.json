@@ -1,0 +1,21 @@
+{
+  "title": {
+    "en": "Online status is changed"
+  },
+  "tokens": [
+    {
+      "name": "old_value",
+      "type": "boolean",
+      "title": {
+        "en": "old value"
+      }
+    },
+    {
+      "name": "new_value",
+      "type": "boolean",
+      "title": {
+        "en": "new value"
+      }
+    }
+  ]
+}

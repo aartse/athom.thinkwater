@@ -1,0 +1,21 @@
+{
+  "title": {
+    "en": "Current level is changed"
+  },
+  "tokens": [
+    {
+      "name": "old_value",
+      "type": "number",
+      "title": {
+        "en": "old value (cm)"
+      }
+    },
+    {
+      "name": "new_value",
+      "type": "number",
+      "title": {
+        "en": "new value (cm)"
+      }
+    }
+  ]
+}

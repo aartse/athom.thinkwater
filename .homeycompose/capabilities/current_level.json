@@ -1,0 +1,11 @@
+{
+    "type": "number",
+    "title": {
+        "en": "Current level (cm)",
+        "nl": "Huidig niveau (cm)"
+    },
+    "icon": "/assets/capabilities/current_level.svg",
+    "insights": true,
+    "getable": true,
+    "setable": false
+}

@@ -1,0 +1,11 @@
+{
+    "type": "number",
+    "title": {
+        "en": "Maximum level (cm)",
+        "nl": "Maximum niveau (cm)"
+    },
+    "icon": "/assets/capabilities/maximum_level.svg",
+    "getable": true,
+    "setable": false
+}
+  

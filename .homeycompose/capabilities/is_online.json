@@ -1,0 +1,11 @@
+{
+    "type": "boolean",
+    "title": {
+      "en": "Is online",
+      "nl": "Is online"
+    },
+    "icon": "/assets/capabilities/is_online.svg",
+    "getable": true,
+    "setable": false
+}
+  

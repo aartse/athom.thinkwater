@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="/homey.js" data-origin="settings"></script>
+  </head>
+  <body>
+    <header class="homey-header">
+      <h1 class="homey-title" data-i18n="settings.title"></h1>
+      <p class="homey-subtitle" data-i18n="settings.subtitle"></p>
+    </header>
+
+    <div class="homey-form-group">
+      <label class="homey-form-label" for="username" data-i18n="settings.username">Username</label>
+      <input class="homey-form-input" id="username" type="text" value="" />
+    </div>
+
+    <div class="homey-form-group">
+      <label class="homey-form-label" for="password" data-i18n="settings.password">Password</label>
+      <input class="homey-form-input" id="password" type="password" value="" />
+    </div>
+
+    <button id="save" class="homey-button-primary-full" data-i18n="settings.save">Save changes</button>
+
+    <script type="text/javascript">
+      function onHomeyReady(Homey) {
+        Homey.ready();
+
+        var usernameElement = document.getElementById("username");
+        var passwordElement = document.getElementById("password");
+        var saveElement = document.getElementById("save");
+
+        Homey.get("username", function (err, value) {
+          if (err) {
+            return Homey.alert(err);
+          }
+
+          usernameElement.value = value;
+        });
+
+        Homey.get("password", function (err, value) {
+          if (err) {
+            return Homey.alert(err);
+          }
+
+          passwordElement.value = value;
+        });
+
+        saveElement.addEventListener("click", function (e) {
+          Homey.set("username", usernameElement.value, function (err) {
+            if (err) {
+              return Homey.alert(err);
+            }
+          });
+          Homey.set("password", passwordElement.value, function (err) {
+            if (err) {
+              return Homey.alert(err);
+            }
+          });
+
+          Homey.alert(Homey.__('settings.saved'));
+        });
+      }
+    </script>
+  </body>
+</html>

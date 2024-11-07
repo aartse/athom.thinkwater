@@ -1,0 +1,21 @@
+{
+  "title": {
+    "en": "Level status is changed"
+  },
+  "tokens": [
+    {
+      "name": "old_value",
+      "type": "string",
+      "title": {
+        "en": "old value"
+      }
+    },
+    {
+      "name": "new_value",
+      "type": "string",
+      "title": {
+        "en": "new value"
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+export = TroubleshootingSolveResponseInterface;
+
+interface TroubleshootingSolveResponseInterface {
+
+}

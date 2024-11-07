@@ -1,0 +1,10 @@
+{
+    "settings": {
+        "title": "App settings",
+        "hostname": "IP / Hostname DucoBox",
+        "save": "Save"
+    },
+    "error": {
+        "hostname_not_set": "The DucoBox's IP is not set in the app settings"
+    }
+}

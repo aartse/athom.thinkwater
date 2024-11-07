@@ -1,0 +1,12 @@
+{
+    "type": "number",
+    "title": {
+        "en": "Fill (%)",
+        "nl": "Gevuld (%)"
+    },
+    "icon": "/assets/capabilities/fill_percentage.svg",
+    "insights": true,
+    "getable": true,
+    "setable": false
+}
+  

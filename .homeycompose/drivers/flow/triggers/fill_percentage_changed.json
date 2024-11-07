@@ -1,0 +1,21 @@
+{
+  "title": {
+    "en": "Fill percentage is changed"
+  },
+  "tokens": [
+    {
+      "name": "old_value",
+      "type": "number",
+      "title": {
+        "en": "old value (%)"
+      }
+    },
+    {
+      "name": "new_value",
+      "type": "number",
+      "title": {
+        "en": "new value (%)"
+      }
+    }
+  ]
+}

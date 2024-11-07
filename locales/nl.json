@@ -1,0 +1,13 @@
+{
+    "settings": {
+        "title": "App configuratie",
+        "username": "Gebruikersnaam",
+        "password": "Wachtwoord",
+        "save": "Opslaan",
+        "saved": "Wijzigingen zijn opgeslagen"
+    },
+    "error": {
+        "credentials_not_set": "De inloggegevens zijn niet ingesteld in de instellingen van de app",
+        "credentials_invalid": "De inloggegevens zijn niet juist, ga naar de instellingen van de app om deze aan te passen"
+    }
+}

@@ -1,0 +1,126 @@
+{
+    "type": "enum",
+    "title": {
+      "en": "Level status",
+      "nl": "Niveau status"
+    },
+    "icon": "/assets/capabilities/level_status.svg",
+    "getable": true,
+    "setable": false,
+    "uiComponent": "sensor",
+    "values": [
+      {
+        "id": "0",
+        "title": {
+          "en": "Out of salt",
+          "nl": "Zout op"
+        }
+      },
+      {
+        "id": "1",
+        "title": {
+          "en": "Salt reserve",
+          "nl": "Zout reserve"
+        }
+      },
+      {
+        "id": "2",
+        "title": {
+          "en": "Salt ok",
+          "nl": "Zout ok"
+        }
+      },
+      {
+        "id": "3",
+        "title": {
+          "en": "Status 3",
+          "nl": "Status 3"
+        }
+      },
+      {
+        "id": "4",
+        "title": {
+          "en": "Status 4",
+          "nl": "Status 4"
+        }
+      },
+      {
+        "id": "5",
+        "title": {
+          "en": "Status 5",
+          "nl": "Status 5"
+        }
+      },
+      {
+        "id": "6",
+        "title": {
+          "en": "Failure alarm",
+          "nl": "Fout alarm"
+        }
+      },
+      {
+        "id": "7",
+        "title": {
+          "en": "Status 7",
+          "nl": "Status 7"
+        }
+      },
+      {
+        "id": "8",
+        "title": {
+          "en": "Status 8",
+          "nl": "Status 8"
+        }
+      },
+      {
+        "id": "9",
+        "title": {
+          "en": "Status 9",
+          "nl": "Status 9"
+        }
+      },
+      {
+        "id": "10",
+        "title": {
+          "en": "Status 10",
+          "nl": "Status 10"
+        }
+      },
+      {
+        "id": "11",
+        "title": {
+          "en": "Status 11",
+          "nl": "Status 11"
+        }
+      },
+      {
+        "id": "12",
+        "title": {
+          "en": "Status 12",
+          "nl": "Status 12"
+        }
+      },
+      {
+        "id": "13",
+        "title": {
+          "en": "Status 13",
+          "nl": "Status 13"
+        }
+      },
+      {
+        "id": "14",
+        "title": {
+          "en": "Status 14",
+          "nl": "Status 14"
+        }
+      },
+      {
+        "id": "15",
+        "title": {
+          "en": "Status 15",
+          "nl": "Status 15"
+        }
+      }
+    ]
+}
+  

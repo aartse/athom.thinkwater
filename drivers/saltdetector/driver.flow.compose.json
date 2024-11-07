@@ -1,0 +1,31 @@
+{
+  "triggers": [
+    {
+      "$extends":"maximum_level_changed",
+      "id": "saltdetector-maximum_level_changed"
+    },
+    {
+      "$extends":"fill_percentage_changed",
+      "id": "saltdetector-fill_percentage_changed"
+    },
+    {
+      "$extends":"current_level_changed",
+      "id": "saltdetector-current_level_changed"
+    },
+    {
+      "$extends":"level_status_changed",
+      "id": "saltdetector-level_status_changed"
+    },
+    {
+      "$extends":"is_online_changed",
+      "id": "saltdetector-is_online_changed"
+    }
+  ],
+  "conditions": [],
+  "actions": [
+    {
+      "$extends":"reset_failure_alarm",
+      "id": "saltdetector__reset_failure_alarm"
+    }
+  ]
+}
